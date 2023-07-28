@@ -14,7 +14,7 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
-/* * {
+/*  {
   box-sizing: border-box;
 }
 h1,
@@ -178,7 +178,10 @@ button {
   border: 1px solid var(--accent-color);
   background: var(--light-color);
   color: var(--primary-brand);
-  cursor: pointer
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .portfolio-list-button:hover, .portfolio-list-button:focus{
   background-color: var(--pressed-state);
