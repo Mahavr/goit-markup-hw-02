@@ -58,8 +58,7 @@ button {
   border-radius: 4px;
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 169px;
-  height: 56px;
+
 
   color: var(--white-background);
 
@@ -142,6 +141,7 @@ button {
 /* features */
 /* about us */
 /* team */
+
 .team-section {
   background-color: var(--light-color);
 }
@@ -154,4 +154,20 @@ button {
 }
 .footer-text {
   color: var(--light-color);
+}
+/**
+  |============================
+  | PORTFOLIO
+  |============================
+*/
+.portfolio-list-button {
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+  background: var(--light-color);
+  color: var(--primary-brand);
+  cursor: pointer
+}
+.portfolio-list-button:hover, .portfolio-list-button:focus{
+  background-color: var(--pressed-state);
+  color: var(--white-background);
 }
