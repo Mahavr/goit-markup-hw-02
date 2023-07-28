@@ -14,7 +14,7 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
-* {
+/* * {
   box-sizing: border-box;
 }
 h1,
@@ -31,7 +31,7 @@ ol {
   margin-bottom: 0px;
   margin-left: 0px;
   padding-left: 0px;
-}
+} */
 a {
   text-decoration: none;
   font-style: normal;
