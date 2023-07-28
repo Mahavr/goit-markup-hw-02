@@ -22,9 +22,7 @@ a {
 li {
   list-style: none;
 }
-img {
-  display: block;
-}
+
 body {
   font-family: var(--main-text);
   color: var(--text-color);
